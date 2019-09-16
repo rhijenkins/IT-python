@@ -30,6 +30,16 @@ def calculate_days_between_dates(date1, date2):
 
 def print_birthday_info(number_of_days):
     print(number_of_days)
+    if number_of_days < 0:
+        print(f"Your birthday was {-number_of_days} days ago.")
+    elif number_of_days > 0:
+        print(f"Your birthday is in {number_of_days} days! I can't wait!")
+    else:
+        print("Happy Birthday!")
+        age = input("How old are you? ")
+        print(f"I hope you have a great {age} birthday!")
+
+
 
 
 
