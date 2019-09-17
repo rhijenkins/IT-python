@@ -1,7 +1,7 @@
 from banner import banner
 import random
 
-banner ("ROCK, PAPER, SCISSORS", "Collin Freeland")
+banner ("ROCK, PAPER, SCISSORS", "Rhianna Jenkins")
 
 print("We are going to play Rock, Paper, Scissors. The first to win two out of three rounds is the winner.")
 print('')
