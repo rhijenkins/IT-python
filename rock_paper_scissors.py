@@ -58,6 +58,7 @@ while response == "Y":
                 print('You chose Scissors, and the Computer chose Scissors. It is a tie')
         else:
             print('That was not an option, please try again.')
+            continue 
 
     if pscore >= 3:
         print("")
